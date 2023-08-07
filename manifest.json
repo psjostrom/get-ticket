@@ -1,0 +1,18 @@
+{
+    "background": { "service_worker": "background.js" },
+    "name": "Get ticket",
+    "description": "- Just click it to copy the JIRA number and description, so you can create a branch from it.",
+    "homepage_url": "http://github.com/psjostrom",
+    "icons": {
+        "16": "ticket-16.png",
+        "48": "ticket-48.png",
+        "128": "ticket-128.png"
+    },
+    "action": {},
+    "permissions": [
+       "activeTab",
+       "scripting"
+    ],
+    "version": "1.0",
+    "manifest_version": 3
+   }
